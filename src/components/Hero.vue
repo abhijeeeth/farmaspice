@@ -1,10 +1,13 @@
 <template>
   <section class="relative flex min-h-[82svh] items-center overflow-hidden py-20 sm:py-24 lg:min-h-[88svh]">
-    <img
-      :src="currentImage"
-      alt="Kerala cocoa and cacao products"
-      class="absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ease-in-out"
-    />
+    <Transition name="hero-fade" appear>
+      <img
+        :key="currentImage"
+        :src="currentImage"
+        alt="Kerala cocoa and cacao products"
+        class="absolute inset-0 h-full w-full object-cover"
+      />
+    </Transition>
     <div class="absolute inset-0 bg-black/40"></div>
     <div class="relative z-10 mx-auto flex w-full max-w-6xl flex-col px-6 text-white">
       <h1 class="text-4xl md:text-6xl font-serif leading-tight">From Kerala Farms to Global Industries.</h1>
@@ -46,3 +49,28 @@ onBeforeUnmount(() => {
   }
 })
 </script>
+
+<style scoped>
+.hero-fade-enter-active,
+.hero-fade-leave-active {
+  transition:
+    opacity 1200ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 1200ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 1200ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform, filter;
+}
+
+.hero-fade-enter-from,
+.hero-fade-leave-to {
+  opacity: 0;
+  transform: scale(1.04);
+  filter: blur(10px);
+}
+
+.hero-fade-enter-to,
+.hero-fade-leave-from {
+  opacity: 1;
+  transform: scale(1);
+  filter: blur(0);
+}
+</style>
