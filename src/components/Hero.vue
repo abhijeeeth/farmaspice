@@ -1,6 +1,10 @@
 <template>
   <section class="relative flex min-h-[82svh] items-center overflow-hidden py-20 sm:py-24 lg:min-h-[88svh]">
-    <img src="/src/assets/hero.jpg" alt="Kerala Cocoa Pod" class="absolute inset-0 w-full h-full object-cover" />
+    <img
+      :src="currentImage"
+      alt="Kerala cocoa and cacao products"
+      class="absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ease-in-out"
+    />
     <div class="absolute inset-0 bg-black/40"></div>
     <div class="relative z-10 mx-auto flex w-full max-w-6xl flex-col px-6 text-white">
       <h1 class="text-4xl md:text-6xl font-serif leading-tight">From Kerala Farms to Global Industries.</h1>
@@ -17,5 +21,28 @@
 </template>
 
 <script setup>
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import Stats from './Stats.vue'
+
+import heroImage from '@/assets/hero.jpg'
+import cocoaImage from '@/assets/cocoa-beans.jpg'
+
+const images = [heroImage, cocoaImage]
+const currentIndex = ref(0)
+const swapInterval = 5000
+let timerId = null
+
+const currentImage = computed(() => images[currentIndex.value])
+
+onMounted(() => {
+  timerId = window.setInterval(() => {
+    currentIndex.value = (currentIndex.value + 1) % images.length
+  }, swapInterval)
+})
+
+onBeforeUnmount(() => {
+  if (timerId !== null) {
+    window.clearInterval(timerId)
+  }
+})
 </script>
