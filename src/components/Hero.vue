@@ -1,9 +1,7 @@
 <template>
   <section class="relative h-[80vh] flex items-center">
-    <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover">
-      <source src="/src/assets/hero.mp4" type="video/mp4" />
-    </video>
-    <div class="absolute inset-0 bg-black/30"></div>
+    <img src="/src/assets/hero.jpg" alt="Kerala Cocoa Pod" class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-black/40"></div>
     <div class="relative z-10 max-w-6xl mx-auto px-6 text-white">
       <h1 class="text-4xl md:text-6xl font-serif leading-tight">From Kerala Farms to Global Industries.</h1>
       <p class="mt-4 text-lg max-w-2xl">Premium spices and cocoa sourced directly from farmers and supplied worldwide.</p>

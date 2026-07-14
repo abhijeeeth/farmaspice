@@ -10,8 +10,8 @@
       <div class="max-w-7xl mx-auto px-6">
         <h3 class="text-2xl font-semibold">Our Companies</h3>
         <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <CompaniesCard title="CocoaBean" subtitle="Premium Cocoa Products" url="https://www.cocoabean.in/" />
-          <CompaniesCard title="ValleySpice" subtitle="Authentic Kerala Spices" url="https://valleyspice.com/" />
+          <CompaniesCard title="CocoaBean" subtitle="Premium Cocoa Products" url="https://www.cocoabean.in/" logo="/src/assets/cocoa-beans.jpg" />
+          <CompaniesCard title="ValleySpice" subtitle="Authentic Kerala Spices" url="https://valleyspice.com/" logo="/src/assets/hero.jpg" />
         </div>
       </div>
     </section>
@@ -19,10 +19,10 @@
     <section class="max-w-7xl mx-auto px-6 py-16 fade-up">
       <h3 class="text-2xl font-semibold">Products</h3>
       <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        <ProductCard title="Premium Cocoa Beans" subtitle="Bulk Supply" />
-        <ProductCard title="Cocoa Powder" subtitle="Food Grade" />
-        <ProductCard title="Black Pepper" subtitle="Grade A" />
-        <ProductCard title="Cardamom" subtitle="Aroma Grade" />
+        <ProductCard title="Premium Cocoa Beans" subtitle="Bulk Supply" image="/src/assets/cocoa-beans.jpg" />
+        <ProductCard title="Cocoa Powder" subtitle="Food Grade" image="/src/assets/cocoa-beans.jpg" />
+        <ProductCard title="Black Pepper" subtitle="Grade A" image="/src/assets/cocoa-beans.jpg" />
+        <ProductCard title="Cardamom" subtitle="Aroma Grade" image="/src/assets/cocoa-beans.jpg" />
       </div>
     </section>
 
@@ -47,7 +47,7 @@
 import { useSEO } from '@/composables/useSEO'
 import Hero from '@/components/Hero.vue'
 import CompaniesCard from '@/components/CompaniesCard.vue'
-import ProductCard from '@/components/ProductCard.vue'
+import ProductCard from '@/components/ProductCard.vue'  
 import Testimonials from '@/components/Testimonials.vue'
 import ContactForm from '@/components/ContactForm.vue'
 import MapWorld from '@/components/MapWorld.vue'
