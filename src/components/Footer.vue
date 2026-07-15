@@ -2,7 +2,7 @@
   <footer class="border-t border-gray-100 bg-white">
     <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
-        <img src="/src/assets/logo.svg" class="w-14 h-14" />
+        <div class="text-lg font-bold text-green-900">FarmSpice</div>
         <p class="mt-4 text-sm text-gray-600">FarmSpice — premium spices & cocoa sourced from Kerala farmers.</p>
       </div>
       <div>

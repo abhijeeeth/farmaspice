@@ -2,9 +2,9 @@
   <header class="sticky top-0 z-40 bg-white/60 backdrop-blur-sm border-b border-gray-100">
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
       <div class="flex items-center gap-4">
-        <img src="/src/assets/logo.svg" alt="FarmSpice" class="w-12 h-12 rounded-md" />
+        <!-- <img src="/src/assets/logo.svg" alt="FarmSpice" class="w-12 h-12 rounded-md" /> -->
         <div>
-          <div class="text-lg font-semibold">FarmSpice</div>
+          <div class="text-lg font-bold text-green-900">FarmSpice</div>
           <div class="text-xs text-gray-500">Premium Spices & Cocoa</div>
         </div>
       </div>
