@@ -9,6 +9,8 @@ const Quality = () => import('../views/Quality.vue')
 const Sustainability = () => import('../views/Sustainability.vue')
 const Industries = () => import('../views/Industries.vue')
 const Blog = () => import('../views/Blog.vue')
+const BlogDetail = () => import('../views/BlogDetail.vue')
+const FAQ = () => import('../views/FAQ.vue')
 const Contact = () => import('../views/Contact.vue')
 
 const routes = [
@@ -21,6 +23,8 @@ const routes = [
     { path: '/sustainability', name: 'Sustainability', component: Sustainability },
     { path: '/industries', name: 'Industries', component: Industries },
     { path: '/blog', name: 'Blog', component: Blog },
+    { path: '/blog/:slug', name: 'BlogDetail', component: BlogDetail },
+    { path: '/faq', name: 'FAQ', component: FAQ },
     { path: '/contact', name: 'Contact', component: Contact }
 ]
 

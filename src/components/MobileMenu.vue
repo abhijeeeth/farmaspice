@@ -8,6 +8,8 @@
       <router-link to="/about" class="block py-2">About</router-link>
       <router-link to="/companies" class="block py-2">Our Companies</router-link>
       <router-link to="/products" class="block py-2">Products</router-link>
+      <router-link to="/blog" class="block py-2">Blog</router-link>
+      <router-link to="/faq" class="block py-2">FAQ</router-link>
       <router-link to="/contact" class="block py-2">Contact</router-link>
     </div>
   </div>
