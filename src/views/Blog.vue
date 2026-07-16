@@ -1,12 +1,21 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative py-16 md:py-24 bg-gradient-to-br from-primary/10 to-accent/10">
-      <div class="max-w-6xl mx-auto px-6">
-        <h1 class="text-4xl md:text-5xl font-serif text-gray-900">Insights & Resources</h1>
-        <p class="mt-4 text-lg text-gray-700 max-w-2xl">
-          Discover expert insights about Kerala spices, premium cocoa, sustainable farming, food manufacturing, and global trade. Stay informed with industry trends and best practices.
-        </p>
+    <section class="relative pt-36 pb-16 bg-bg grain-overlay border-b border-primary/5">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="flex items-center gap-2 mb-4">
+          <span class="h-[1px] w-6 bg-accent"></span>
+          <span class="text-xs uppercase tracking-widest text-accent font-bold">Knowledge</span>
+        </div>
+        
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-display font-bold text-primary-dark tracking-tight leading-none">
+            Insights & <span class="font-serif italic font-normal text-accent">Resources</span>
+          </h1>
+          <p class="text-secondary-light font-sans max-w-md text-sm md:text-base leading-relaxed">
+            Discover expert insights about Kerala spices, premium cocoa, sustainable farming, food manufacturing, and global trade.
+          </p>
+        </div>
       </div>
     </section>
 

@@ -1,13 +1,62 @@
 <template>
-  <section class="max-w-6xl mx-auto px-6 py-16 fade-up">
-    <h1 class="text-3xl font-serif">Quality Assurance</h1>
-    <p class="mt-4 text-gray-700">Details on quality testing, certifications and traceability.</p>
-    <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-white p-6 rounded shadow">FSSAI</div>
-      <div class="bg-white p-6 rounded shadow">ISO / HACCP</div>
-      <div class="bg-white p-6 rounded shadow">Organic / Export Ready</div>
-    </div>
-  </section>
+  <div class="bg-bg overflow-hidden pt-36 pb-24 grain-overlay">
+    <!-- Header Block -->
+    <section class="max-w-7xl mx-auto px-6 mb-20">
+      <div class="border-b border-primary/5 pb-10">
+        <div class="flex items-center gap-2 mb-4">
+          <span class="h-[1px] w-6 bg-accent"></span>
+          <span class="text-xs uppercase tracking-widest text-accent font-bold">Standard</span>
+        </div>
+        
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-display font-bold text-primary-dark tracking-tight leading-none">
+            Quality <span class="font-serif italic font-normal text-accent">Assurance</span>
+          </h1>
+          <p class="text-secondary-light font-sans max-w-md text-sm md:text-base leading-relaxed">
+            Details on quality testing, international standards, certifications, and end-to-end traceability.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications List / Cards -->
+    <section class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="p-8 bg-white/40 border border-primary/5 rounded-3xl hover:border-accent/30 hover:shadow-md transition-all duration-300 relative group overflow-hidden">
+          <div class="font-display font-black text-4xl text-accent-gold/20 mb-6 select-none">01</div>
+          <h3 class="text-2xl font-display font-bold text-primary-dark mb-4">FSSAI</h3>
+          <p class="text-secondary-dark/80 text-sm leading-relaxed font-sans font-normal">
+            Fully licensed and compliant with the Food Safety and Standards Authority of India (FSSAI) guidelines, maintaining high food preservation standards.
+          </p>
+          <div class="w-full h-[1px] bg-primary/5 mt-8 group-hover:bg-accent/30"></div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="p-8 bg-white/40 border border-primary/5 rounded-3xl hover:border-accent/30 hover:shadow-md transition-all duration-300 relative group overflow-hidden">
+          <div class="font-display font-black text-4xl text-accent-gold/20 mb-6 select-none">02</div>
+          <h3 class="text-2xl font-display font-bold text-primary-dark mb-4">ISO / HACCP</h3>
+          <p class="text-secondary-dark/80 text-sm leading-relaxed font-sans font-normal">
+            Processing and grinding lines certified under ISO systems and Hazard Analysis Critical Control Point (HACCP) rules for zero contamination risk.
+          </p>
+          <div class="w-full h-[1px] bg-primary/5 mt-8 group-hover:bg-accent/30"></div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="p-8 bg-[#1B4332] text-white rounded-3xl shadow-xl relative group overflow-hidden">
+          <!-- Subtle glow in background -->
+          <div class="absolute -right-10 -bottom-10 w-32 h-32 rounded-full bg-accent/20 blur-xl pointer-events-none"></div>
+
+          <div class="font-display font-black text-4xl text-accent/30 mb-6 select-none">03</div>
+          <h3 class="text-2xl font-display font-bold text-white mb-4">Organic / Export Ready</h3>
+          <p class="text-white/80 text-sm leading-relaxed font-sans font-normal">
+            Verified organic batch tracing and compliant phytosanitary packaging ready for export to EU, US, and APAC markets.
+          </p>
+          <div class="w-full h-[1px] bg-white/10 mt-8"></div>
+        </div>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script setup>
