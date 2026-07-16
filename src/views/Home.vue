@@ -58,10 +58,10 @@
         <!-- Alternating/Asymmetric Cards Layout -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
           <div class="md:translate-y-4">
-            <CompaniesCard :index="1" title="CocoaBean" subtitle="Premium Cocoa Products" url="https://www.cocoabean.in/" logo="/src/assets/cocoa-beans.jpg" />
+            <CompaniesCard :index="1" title="CocoaBean" subtitle="Premium Cocoa Products" url="https://www.cocoabean.in/" :logo="cocoaImage" />
           </div>
           <div class="md:-translate-y-4 mt-8 md:mt-0">
-            <CompaniesCard :index="2" title="ValleySpice" subtitle="Authentic Kerala Spices" url="https://valleyspice.com/" logo="/src/assets/hero.jpg" />
+            <CompaniesCard :index="2" title="ValleySpice" subtitle="Authentic Kerala Spices" url="https://valleyspice.com/" :logo="heroImage" />
           </div>
         </div>
       </div>
@@ -89,10 +89,10 @@
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          <ProductCard :index="1" title="Premium Cocoa Beans" subtitle="Bulk Supply" image="/src/assets/cocoa-beans.jpg" />
-          <ProductCard :index="2" title="Cocoa Powder" subtitle="Food Grade" image="/src/assets/cocoa-beans.jpg" />
-          <ProductCard :index="3" title="Black Pepper" subtitle="Grade A" image="/src/assets/cocoa-beans.jpg" />
-          <ProductCard :index="4" title="Cardamom" subtitle="Aroma Grade" image="/src/assets/cocoa-beans.jpg" />
+          <ProductCard :index="1" title="Premium Cocoa Beans" subtitle="Bulk Supply" :image="cocoaImage" />
+          <ProductCard :index="2" title="Cocoa Powder" subtitle="Food Grade" :image="cocoaImage" />
+          <ProductCard :index="3" title="Black Pepper" subtitle="Grade A" :image="cocoaImage" />
+          <ProductCard :index="4" title="Cardamom" subtitle="Aroma Grade" :image="cocoaImage" />
         </div>
       </div>
     </section>
@@ -152,6 +152,8 @@ import ProductCard from '@/components/ProductCard.vue'
 import Testimonials from '@/components/Testimonials.vue'
 import ContactForm from '@/components/ContactForm.vue'
 import MapWorld from '@/components/MapWorld.vue'
+import cocoaImage from '@/assets/cocoa-beans.jpg'
+import heroImage from '@/assets/hero.jpg'
 
 useSEO({ title: 'Home', description: 'FarmSpice — Premium spices and cocoa from Kerala.' })
 </script>

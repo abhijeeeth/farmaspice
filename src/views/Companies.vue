@@ -22,8 +22,8 @@
     <!-- Brands Grid -->
     <section class="max-w-7xl mx-auto px-6">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
-        <CompaniesCard :index="1" title="CocoaBean" subtitle="Premium Cocoa Products" url="https://www.cocoabean.in/" logo="/src/assets/cocoa-beans.jpg" />
-        <CompaniesCard :index="2" title="ValleySpice" subtitle="Authentic Kerala Spices" url="https://valleyspice.com/" logo="/src/assets/hero.jpg" />
+        <CompaniesCard :index="1" title="CocoaBean" subtitle="Premium Cocoa Products" url="https://www.cocoabean.in/" :logo="cocoaImage" />
+        <CompaniesCard :index="2" title="ValleySpice" subtitle="Authentic Kerala Spices" url="https://valleyspice.com/" :logo="heroImage" />
       </div>
     </section>
   </div>
@@ -32,5 +32,8 @@
 <script setup>
 import CompaniesCard from '@/components/CompaniesCard.vue'
 import { useSEO } from '@/composables/useSEO'
+import cocoaImage from '@/assets/cocoa-beans.jpg'
+import heroImage from '@/assets/hero.jpg'
+
 useSEO({ title: 'Our Companies', description: 'CocoaBean and ValleySpice — brands under FarmSpice.' })
 </script>

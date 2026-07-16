@@ -70,6 +70,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import defaultLogo from '@/assets/logo.svg'
 
 const props = defineProps({
   title: String,
@@ -77,7 +78,7 @@ const props = defineProps({
   url: String,
   logo: {
     type: String,
-    default: "/src/assets/logo.svg",
+    default: defaultLogo,
   },
   index: {
     type: Number,
