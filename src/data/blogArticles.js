@@ -1,17 +1,17 @@
 export const blogArticles = [
-    {
-        id: 1,
-        slug: 'benefits-of-kerala-black-pepper',
-        title: 'Benefits of Kerala Black Pepper',
-        excerpt: 'Discover why Kerala black pepper is considered the gold standard in the spice industry.',
-        description: 'Learn about the unique characteristics, health benefits, and culinary uses of premium Kerala black pepper sourced directly from farmers.',
-        category: 'Kerala Spices',
-        tags: ['pepper', 'health', 'kerala', 'spices'],
-        author: 'Ravi Kumar',
-        publishDate: '2024-01-15',
-        readingTime: 8,
-        featuredImage: 'https://images.unsplash.com/photo-1596040708546-55aacc3baea4?w=800&h=500&fit=crop',
-        content: `
+  {
+    id: 1,
+    slug: 'benefits-of-kerala-black-pepper',
+    title: 'Benefits of Kerala Black Pepper',
+    excerpt: 'Discover why Kerala black pepper is considered the gold standard in the spice industry.',
+    description: 'Learn about the unique characteristics, health benefits, and culinary uses of premium Kerala black pepper sourced directly from farmers.',
+    category: 'Kerala Spices',
+    tags: ['pepper', 'health', 'kerala', 'spices'],
+    author: 'Ravi Kumar',
+    publishDate: '2024-01-15',
+    readingTime: 8,
+    featuredImage: 'https://images.pexels.com/photos/27679768/pexels-photo-27679768.jpeg',
+    content: `
       <h2>The Queen of Spices: Kerala Black Pepper</h2>
       <p>Kerala black pepper, scientifically known as <em>Piper nigrum</em>, is a perennial woody vine that produces berries which are commonly used as a spice and seasoning. These berries are harvested, fermented, and sun-dried to produce the black pepper we know and love.</p>
       
@@ -54,20 +54,20 @@ export const blogArticles = [
       <h3>Our Commitment</h3>
       <p>At FarmSpice, we work directly with Kerala pepper farmers to ensure the highest quality. Our sustainable farming practices preserve the soil's integrity while producing exceptional pepper year after year.</p>
     `
-    },
-    {
-        id: 2,
-        slug: 'understanding-cocoa-fermentation',
-        title: 'Understanding Cocoa Fermentation',
-        excerpt: 'The fermentation process is crucial to developing cocoa\'s complex flavors. Learn how it works.',
-        description: 'Explore the science behind cocoa bean fermentation and how it transforms raw cocoa into the rich, complex product we use in chocolate and cocoa products.',
-        category: 'Cocoa',
-        tags: ['cocoa', 'fermentation', 'processing', 'quality'],
-        author: 'Maria Santos',
-        publishDate: '2024-01-20',
-        readingTime: 10,
-        featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 2,
+    slug: 'understanding-cocoa-fermentation',
+    title: 'Understanding Cocoa Fermentation',
+    excerpt: 'The fermentation process is crucial to developing cocoa\'s complex flavors. Learn how it works.',
+    description: 'Explore the science behind cocoa bean fermentation and how it transforms raw cocoa into the rich, complex product we use in chocolate and cocoa products.',
+    category: 'Cocoa',
+    tags: ['cocoa', 'fermentation', 'processing', 'quality'],
+    author: 'Maria Santos',
+    publishDate: '2024-01-20',
+    readingTime: 10,
+    featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
+    content: `
       <h2>The Art and Science of Cocoa Fermentation</h2>
       <p>Cocoa fermentation is one of the most critical steps in chocolate production. It's where raw, bitter cocoa beans transform into the aromatic, flavorful beans we use for premium chocolate and cocoa products.</p>
       
@@ -126,20 +126,20 @@ export const blogArticles = [
         <li>Flavor profile development</li>
       </ul>
     `
-    },
-    {
-        id: 3,
-        slug: 'why-cocoa-butter-matters',
-        title: 'Why Cocoa Butter Matters',
-        excerpt: 'Explore the unique properties of cocoa butter and its importance in premium chocolate production.',
-        description: 'Discover why cocoa butter is essential for premium chocolate and its various applications in cosmetics, pharmaceuticals, and food manufacturing.',
-        category: 'Cocoa',
-        tags: ['cocoa-butter', 'chocolate', 'quality', 'premium'],
-        author: 'James Wilson',
-        publishDate: '2024-01-25',
-        readingTime: 7,
-        featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 3,
+    slug: 'why-cocoa-butter-matters',
+    title: 'Why Cocoa Butter Matters',
+    excerpt: 'Explore the unique properties of cocoa butter and its importance in premium chocolate production.',
+    description: 'Discover why cocoa butter is essential for premium chocolate and its various applications in cosmetics, pharmaceuticals, and food manufacturing.',
+    category: 'Cocoa',
+    tags: ['cocoa-butter', 'chocolate', 'quality', 'premium'],
+    author: 'James Wilson',
+    publishDate: '2024-01-25',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
+    content: `
       <h2>The Golden Heart of Chocolate: Cocoa Butter</h2>
       <p>Cocoa butter is the natural fat from cocoa beans, extracted during processing. It's prized for its unique melting properties, distinctive aroma, and crucial role in chocolate making.</p>
       
@@ -177,20 +177,20 @@ export const blogArticles = [
         "Cocoa butter is nature's perfect fat for chocolate. No substitute can truly replicate its crystalline behavior and flavor contribution."
       </blockquote>
     `
-    },
-    {
-        id: 4,
-        slug: 'direct-sourcing-from-kerala-farmers',
-        title: 'Direct Sourcing from Kerala Farmers',
-        excerpt: 'Learn how direct relationships with farmers ensure quality, sustainability, and fair compensation.',
-        description: 'Discover why FarmSpice maintains direct relationships with Kerala farmers and how this approach benefits quality, sustainability, and local communities.',
-        category: 'Farmer Stories',
-        tags: ['sourcing', 'farmers', 'sustainability', 'direct-trade'],
-        author: 'Rajesh Nair',
-        publishDate: '2024-02-01',
-        readingTime: 9,
-        featuredImage: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 4,
+    slug: 'direct-sourcing-from-kerala-farmers',
+    title: 'Direct Sourcing from Kerala Farmers',
+    excerpt: 'Learn how direct relationships with farmers ensure quality, sustainability, and fair compensation.',
+    description: 'Discover why FarmSpice maintains direct relationships with Kerala farmers and how this approach benefits quality, sustainability, and local communities.',
+    category: 'Farmer Stories',
+    tags: ['sourcing', 'farmers', 'sustainability', 'direct-trade'],
+    author: 'Rajesh Nair',
+    publishDate: '2024-02-01',
+    readingTime: 9,
+    featuredImage: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=500&fit=crop',
+    content: `
       <h2>Building Trust: Direct Sourcing from Kerala Farmers</h2>
       <p>At FarmSpice, we believe that quality begins in the field. Our direct sourcing relationship with Kerala farmers is the foundation of our premium products.</p>
       
@@ -221,20 +221,20 @@ export const blogArticles = [
         "Our farmers are our partners, not just suppliers. When they succeed, we succeed. It's that simple."
       </blockquote>
     `
-    },
-    {
-        id: 5,
-        slug: 'sustainable-farming-practices',
-        title: 'Sustainable Farming Practices',
-        excerpt: 'How FarmSpice and our farmers are protecting Kerala\'s land for future generations.',
-        description: 'Explore the sustainable farming practices we implement to ensure environmental stewardship while maintaining premium spice quality.',
-        category: 'Sustainability',
-        tags: ['sustainability', 'farming', 'environment', 'practices'],
-        author: 'Dr. Priya Sharma',
-        publishDate: '2024-02-08',
-        readingTime: 11,
-        featuredImage: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 5,
+    slug: 'sustainable-farming-practices',
+    title: 'Sustainable Farming Practices',
+    excerpt: 'How FarmSpice and our farmers are protecting Kerala\'s land for future generations.',
+    description: 'Explore the sustainable farming practices we implement to ensure environmental stewardship while maintaining premium spice quality.',
+    category: 'Sustainability',
+    tags: ['sustainability', 'farming', 'environment', 'practices'],
+    author: 'Dr. Priya Sharma',
+    publishDate: '2024-02-08',
+    readingTime: 11,
+    featuredImage: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=500&fit=crop',
+    content: `
       <h2>Cultivating Tomorrow: Sustainable Farming at FarmSpice</h2>
       <p>Sustainable farming isn't just good for the environment—it's essential for producing the highest quality spices and cocoa.</p>
       
@@ -269,20 +269,20 @@ export const blogArticles = [
         "Sustainable farming is an investment in the future. When we protect our land, we ensure that our children and grandchildren can continue this tradition."
       </blockquote>
     `
-    },
-    {
-        id: 6,
-        slug: 'choosing-premium-cocoa-powder',
-        title: 'Choosing Premium Cocoa Powder',
-        excerpt: 'Everything you need to know about cocoa powder quality, processing, and selection.',
-        description: 'Learn how to distinguish premium cocoa powder from inferior products and understand the factors that affect quality.',
-        category: 'Cocoa',
-        tags: ['cocoa-powder', 'quality', 'selection', 'buyer-guide'],
-        author: 'Sophie Laurent',
-        publishDate: '2024-02-15',
-        readingTime: 8,
-        featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 6,
+    slug: 'choosing-premium-cocoa-powder',
+    title: 'Choosing Premium Cocoa Powder',
+    excerpt: 'Everything you need to know about cocoa powder quality, processing, and selection.',
+    description: 'Learn how to distinguish premium cocoa powder from inferior products and understand the factors that affect quality.',
+    category: 'Cocoa',
+    tags: ['cocoa-powder', 'quality', 'selection', 'buyer-guide'],
+    author: 'Sophie Laurent',
+    publishDate: '2024-02-15',
+    readingTime: 8,
+    featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
+    content: `
       <h2>The Art of Selecting Premium Cocoa Powder</h2>
       <p>Not all cocoa powders are created equal. Understanding quality markers will help you select the best product for your needs.</p>
       
@@ -307,20 +307,20 @@ export const blogArticles = [
         <li>Unknown origin or processing methods</li>
       </ul>
     `
-    },
-    {
-        id: 7,
-        slug: 'private-label-manufacturing',
-        title: 'Private Label Manufacturing',
-        excerpt: 'How FarmSpice can help your brand create unique spice and cocoa products.',
-        description: 'Explore our private label manufacturing capabilities and how we can help your brand create premium spice and cocoa products.',
-        category: 'Manufacturing',
-        tags: ['private-label', 'manufacturing', 'branding', 'custom'],
-        author: 'Robert Chen',
-        publishDate: '2024-02-22',
-        readingTime: 7,
-        featuredImage: 'https://images.unsplash.com/photo-1576091160550-112173fba4ee?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 7,
+    slug: 'private-label-manufacturing',
+    title: 'Private Label Manufacturing',
+    excerpt: 'How FarmSpice can help your brand create unique spice and cocoa products.',
+    description: 'Explore our private label manufacturing capabilities and how we can help your brand create premium spice and cocoa products.',
+    category: 'Manufacturing',
+    tags: ['private-label', 'manufacturing', 'branding', 'custom'],
+    author: 'Robert Chen',
+    publishDate: '2024-02-22',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1576091160550-112173fba4ee?w=800&h=500&fit=crop',
+    content: `
       <h2>Create Your Brand: Private Label Manufacturing with FarmSpice</h2>
       <p>Building a brand around premium spices and cocoa products? We offer comprehensive private label manufacturing solutions.</p>
       
@@ -342,20 +342,20 @@ export const blogArticles = [
         <li>Competitive pricing for premium quality</li>
       </ul>
     `
-    },
-    {
-        id: 8,
-        slug: 'exporting-indian-spices',
-        title: 'Exporting Indian Spices',
-        excerpt: 'A guide to international spice export regulations, certifications, and best practices.',
-        description: 'Learn about the regulatory landscape, certifications, and best practices for exporting premium Indian spices globally.',
-        category: 'Export',
-        tags: ['export', 'regulations', 'compliance', 'international-trade'],
-        author: 'Vikram Patel',
-        publishDate: '2024-03-01',
-        readingTime: 12,
-        featuredImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 8,
+    slug: 'exporting-indian-spices',
+    title: 'Exporting Indian Spices',
+    excerpt: 'A guide to international spice export regulations, certifications, and best practices.',
+    description: 'Learn about the regulatory landscape, certifications, and best practices for exporting premium Indian spices globally.',
+    category: 'Export',
+    tags: ['export', 'regulations', 'compliance', 'international-trade'],
+    author: 'Vikram Patel',
+    publishDate: '2024-03-01',
+    readingTime: 12,
+    featuredImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=500&fit=crop',
+    content: `
       <h2>Navigating Global Trade: Exporting Indian Spices Successfully</h2>
       <p>Exporting Indian spices requires understanding international regulations, certifications, and market requirements.</p>
       
@@ -380,20 +380,20 @@ export const blogArticles = [
         "Proper export compliance ensures your products reach global markets with confidence and maintains our reputation for quality."
       </blockquote>
     `
-    },
-    {
-        id: 9,
-        slug: 'cocoa-bean-processing-explained',
-        title: 'Cocoa Bean Processing Explained',
-        excerpt: 'From fresh pod to roasted cocoa: A complete guide to cocoa bean processing.',
-        description: 'Understand the complete cocoa processing journey from harvesting to roasting and how each step affects the final product quality.',
-        category: 'Cocoa',
-        tags: ['cocoa', 'processing', 'production', 'quality'],
-        author: 'Carlos Mendez',
-        publishDate: '2024-03-08',
-        readingTime: 13,
-        featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 9,
+    slug: 'cocoa-bean-processing-explained',
+    title: 'Cocoa Bean Processing Explained',
+    excerpt: 'From fresh pod to roasted cocoa: A complete guide to cocoa bean processing.',
+    description: 'Understand the complete cocoa processing journey from harvesting to roasting and how each step affects the final product quality.',
+    category: 'Cocoa',
+    tags: ['cocoa', 'processing', 'production', 'quality'],
+    author: 'Carlos Mendez',
+    publishDate: '2024-03-08',
+    readingTime: 13,
+    featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
+    content: `
       <h2>The Complete Cocoa Processing Journey</h2>
       <p>From the cocoa pod on the tree to premium cocoa powder or chocolate, cocoa undergoes a complex transformation process.</p>
       
@@ -415,20 +415,20 @@ export const blogArticles = [
       <h3>Step 6: Grinding</h3>
       <p>Cocoa nibs are ground into cocoa mass, which can be further processed into cocoa powder and cocoa butter.</p>
     `
-    },
-    {
-        id: 10,
-        slug: 'how-we-maintain-product-quality',
-        title: 'How We Maintain Product Quality',
-        excerpt: 'Behind-the-scenes look at our quality assurance processes and testing standards.',
-        description: 'Learn about FarmSpice\'s comprehensive quality assurance protocols and how we ensure every product meets our premium standards.',
-        category: 'Quality Assurance',
-        tags: ['quality', 'testing', 'standards', 'assurance'],
-        author: 'Dr. Anjali Desai',
-        publishDate: '2024-03-15',
-        readingTime: 10,
-        featuredImage: 'https://images.unsplash.com/photo-1576091160550-112173fba4ee?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 10,
+    slug: 'how-we-maintain-product-quality',
+    title: 'How We Maintain Product Quality',
+    excerpt: 'Behind-the-scenes look at our quality assurance processes and testing standards.',
+    description: 'Learn about FarmSpice\'s comprehensive quality assurance protocols and how we ensure every product meets our premium standards.',
+    category: 'Quality Assurance',
+    tags: ['quality', 'testing', 'standards', 'assurance'],
+    author: 'Dr. Anjali Desai',
+    publishDate: '2024-03-15',
+    readingTime: 10,
+    featuredImage: 'https://images.unsplash.com/photo-1576091160550-112173fba4ee?w=800&h=500&fit=crop',
+    content: `
       <h2>Excellence in Every Batch: Our Quality Assurance Program</h2>
       <p>Quality is not just a promise—it's built into every stage of our process through rigorous testing and standards.</p>
       
@@ -460,20 +460,20 @@ export const blogArticles = [
         "Quality begins with the farmer and ends with rigorous testing. Nothing reaches our customers without meeting our exacting standards."
       </blockquote>
     `
-    },
-    {
-        id: 11,
-        slug: 'why-farm-to-factory-matters',
-        title: 'Why Farm-to-Factory Matters',
-        excerpt: 'Understanding the importance of traceability and control in premium spice production.',
-        description: 'Explore why maintaining control from farm to factory is essential for quality, sustainability, and consumer safety.',
-        category: 'Manufacturing',
-        tags: ['supply-chain', 'traceability', 'quality', 'transparency'],
-        author: 'Thomas Anderson',
-        publishDate: '2024-03-22',
-        readingTime: 8,
-        featuredImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 11,
+    slug: 'why-farm-to-factory-matters',
+    title: 'Why Farm-to-Factory Matters',
+    excerpt: 'Understanding the importance of traceability and control in premium spice production.',
+    description: 'Explore why maintaining control from farm to factory is essential for quality, sustainability, and consumer safety.',
+    category: 'Manufacturing',
+    tags: ['supply-chain', 'traceability', 'quality', 'transparency'],
+    author: 'Thomas Anderson',
+    publishDate: '2024-03-22',
+    readingTime: 8,
+    featuredImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=500&fit=crop',
+    content: `
       <h2>From Farm to Your Table: The Farm-to-Factory Advantage</h2>
       <p>True quality control requires managing every step from cultivation to production.</p>
       
@@ -489,20 +489,20 @@ export const blogArticles = [
       <h3>Quality Consistency</h3>
       <p>By controlling the entire process, we ensure consistent quality across every batch. This consistency is a trademark of FarmSpice products.</p>
     `
-    },
-    {
-        id: 12,
-        slug: 'kerala-cardamom-guide',
-        title: 'Kerala Cardamom Guide',
-        excerpt: 'Everything about Kerala cardamom: varieties, quality grades, and culinary uses.',
-        description: 'Discover the varieties of Kerala cardamom, how to identify premium grades, and its applications in cooking and industry.',
-        category: 'Kerala Spices',
-        tags: ['cardamom', 'kerala', 'spices', 'buyer-guide'],
-        author: 'Meera Iyer',
-        publishDate: '2024-04-01',
-        readingTime: 9,
-        featuredImage: 'https://images.unsplash.com/photo-1596040708546-55aacc3baea4?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 12,
+    slug: 'kerala-cardamom-guide',
+    title: 'Kerala Cardamom Guide',
+    excerpt: 'Everything about Kerala cardamom: varieties, quality grades, and culinary uses.',
+    description: 'Discover the varieties of Kerala cardamom, how to identify premium grades, and its applications in cooking and industry.',
+    category: 'Kerala Spices',
+    tags: ['cardamom', 'kerala', 'spices', 'buyer-guide'],
+    author: 'Meera Iyer',
+    publishDate: '2024-04-01',
+    readingTime: 9,
+    featuredImage: 'https://images.unsplash.com/photo-1596040708546-55aacc3baea4?w=800&h=500&fit=crop',
+    content: `
       <h2>The Green Gold: A Complete Guide to Kerala Cardamom</h2>
       <p>Cardamom, native to the Western Ghats of Kerala, is often called the "Queen of Spices" for its exquisite aroma and flavor.</p>
       
@@ -527,20 +527,20 @@ export const blogArticles = [
         <li>Pharmaceuticals and supplements</li>
       </ul>
     `
-    },
-    {
-        id: 13,
-        slug: 'natural-vs-dutched-cocoa-powder',
-        title: 'Natural vs Dutched Cocoa Powder',
-        excerpt: 'Understanding the differences between natural and alkalized cocoa and their applications.',
-        description: 'Learn the key differences between natural and Dutch-processed cocoa powder, their flavor profiles, and best uses.',
-        category: 'Cocoa',
-        tags: ['cocoa-powder', 'processing', 'quality', 'comparison'],
-        author: 'Isabella Romano',
-        publishDate: '2024-04-08',
-        readingTime: 7,
-        featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 13,
+    slug: 'natural-vs-dutched-cocoa-powder',
+    title: 'Natural vs Dutched Cocoa Powder',
+    excerpt: 'Understanding the differences between natural and alkalized cocoa and their applications.',
+    description: 'Learn the key differences between natural and Dutch-processed cocoa powder, their flavor profiles, and best uses.',
+    category: 'Cocoa',
+    tags: ['cocoa-powder', 'processing', 'quality', 'comparison'],
+    author: 'Isabella Romano',
+    publishDate: '2024-04-08',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
+    content: `
       <h2>Natural vs Dutch-Processed: Choosing Your Cocoa</h2>
       <p>The processing method significantly affects cocoa powder's color, flavor, and performance in recipes.</p>
       
@@ -564,20 +564,20 @@ export const blogArticles = [
         "Neither is superior—they're different tools for different jobs. Understanding when to use each creates culinary perfection."
       </blockquote>
     `
-    },
-    {
-        id: 14,
-        slug: 'bulk-spice-purchasing-guide',
-        title: 'Bulk Spice Purchasing Guide',
-        excerpt: 'Tips and best practices for purchasing spices in bulk for businesses and manufacturing.',
-        description: 'A comprehensive guide for wholesale buyers on selecting, purchasing, and storing bulk spices effectively.',
-        category: 'Wholesale',
-        tags: ['wholesale', 'bulk-purchasing', 'business', 'guide'],
-        author: 'Michael Johnson',
-        publishDate: '2024-04-15',
-        readingTime: 9,
-        featuredImage: 'https://images.unsplash.com/photo-1596040708546-55aacc3baea4?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 14,
+    slug: 'bulk-spice-purchasing-guide',
+    title: 'Bulk Spice Purchasing Guide',
+    excerpt: 'Tips and best practices for purchasing spices in bulk for businesses and manufacturing.',
+    description: 'A comprehensive guide for wholesale buyers on selecting, purchasing, and storing bulk spices effectively.',
+    category: 'Wholesale',
+    tags: ['wholesale', 'bulk-purchasing', 'business', 'guide'],
+    author: 'Michael Johnson',
+    publishDate: '2024-04-15',
+    readingTime: 9,
+    featuredImage: 'https://images.unsplash.com/photo-1596040708546-55aacc3baea4?w=800&h=500&fit=crop',
+    content: `
       <h2>Smart Buying: Bulk Spice Purchasing Strategy</h2>
       <p>Whether you're a food manufacturer, restaurant, or wholesaler, purchasing bulk spices requires careful planning and knowledge.</p>
       
@@ -599,20 +599,20 @@ export const blogArticles = [
         <li>Implement FIFO (First In, First Out) system</li>
       </ul>
     `
-    },
-    {
-        id: 15,
-        slug: 'food-safety-in-spice-manufacturing',
-        title: 'Food Safety in Spice Manufacturing',
-        excerpt: 'Critical safety protocols and best practices in industrial spice production and processing.',
-        description: 'Learn about the comprehensive food safety measures and protocols implemented in modern spice manufacturing facilities.',
-        category: 'Quality Assurance',
-        tags: ['food-safety', 'manufacturing', 'compliance', 'standards'],
-        author: 'Dr. Ravi Prasad',
-        publishDate: '2024-04-22',
-        readingTime: 11,
-        featuredImage: 'https://images.unsplash.com/photo-1576091160550-112173fba4ee?w=800&h=500&fit=crop',
-        content: `
+  },
+  {
+    id: 15,
+    slug: 'food-safety-in-spice-manufacturing',
+    title: 'Food Safety in Spice Manufacturing',
+    excerpt: 'Critical safety protocols and best practices in industrial spice production and processing.',
+    description: 'Learn about the comprehensive food safety measures and protocols implemented in modern spice manufacturing facilities.',
+    category: 'Quality Assurance',
+    tags: ['food-safety', 'manufacturing', 'compliance', 'standards'],
+    author: 'Dr. Ravi Prasad',
+    publishDate: '2024-04-22',
+    readingTime: 11,
+    featuredImage: 'https://images.unsplash.com/photo-1576091160550-112173fba4ee?w=800&h=500&fit=crop',
+    content: `
       <h2>Safeguarding Every Batch: Food Safety in Modern Spice Manufacturing</h2>
       <p>Food safety is non-negotiable in spice manufacturing. Our facility implements comprehensive protocols at every stage.</p>
       
@@ -645,18 +645,18 @@ export const blogArticles = [
         "Food safety is a continuous commitment. Every employee in our facility is trained and empowered to maintain these standards."
       </blockquote>
     `
-    }
+  }
 ];
 
 export const blogCategories = [
-    'Cocoa',
-    'Kerala Spices',
-    'Manufacturing',
-    'Sustainability',
-    'Export',
-    'Food Industry',
-    'Quality Assurance',
-    'Farmer Stories',
-    'Recipes',
-    'Business Tips'
+  'Cocoa',
+  'Kerala Spices',
+  'Manufacturing',
+  'Sustainability',
+  'Export',
+  'Food Industry',
+  'Quality Assurance',
+  'Farmer Stories',
+  'Recipes',
+  'Business Tips'
 ];
