@@ -70,7 +70,7 @@
             Contact Us
           </router-link>
           <a
-            href="mailto:info@farmspice.com"
+            href="mailto:customercare@valleyspice.com"
             class="px-8 py-3 border-2 border-primary text-primary rounded-lg hover:bg-primary hover:text-white transition font-medium"
           >
             Email us

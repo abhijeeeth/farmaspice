@@ -155,5 +155,23 @@ import MapWorld from '@/components/MapWorld.vue'
 import cocoaImage from '@/assets/cocoa-beans.jpg'
 import heroImage from '@/assets/hero.jpg'
 
-useSEO({ title: 'Home', description: 'FarmSpice — Premium spices and cocoa from Kerala.' })
+useSEO({
+  title: 'Home',
+  description: 'FarmSpice — Premium spices and cocoa from Kerala.',
+  jsonLd: {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    'name': 'Farmspice Traders Private Limited',
+    'url': 'https://farmspice.com',
+    'logo': 'https://farmspice.com/src/assets/logo.svg',
+    'contactPoint': {
+      '@type': 'ContactPoint',
+      'telephone': '+918088315132',
+      'contactType': 'customer service',
+      'email': 'customercare@valleyspice.com',
+      'areaServed': 'IN',
+      'availableLanguage': ['en']
+    }
+  }
+})
 </script>

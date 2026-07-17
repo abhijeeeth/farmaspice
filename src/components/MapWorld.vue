@@ -1,6 +1,12 @@
 <template>
-  <div class="bg-white rounded-lg shadow overflow-hidden">
-    <div class="h-60 flex items-center justify-center text-gray-400">Interactive world map placeholder</div>
+  <div class="w-full h-full relative min-h-[240px]">
+    <iframe
+      src="https://maps.google.com/maps?q=Pottamkulam%20Central%20Building,%20Kalaketty,%20Kanjirapally,%20Kerala%20686508,%20India&t=&z=14&ie=UTF8&iwloc=&output=embed"
+      class="w-full h-full border-0 absolute inset-0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
   </div>
 </template>
 

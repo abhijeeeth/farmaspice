@@ -15,8 +15,11 @@
               <span class="text-2xl font-display font-extrabold tracking-tight">FarmSpice</span>
             </div>
             <p class="mt-6 text-sm text-white/70 max-w-sm font-sans leading-relaxed">
-              FarmSpice — premium spices & cocoa sourced directly from Kerala farmers. Reimagining global agricultural sourcing with pure trust and modern craftsmanship.
+              Farmspice Traders Private Limited — premium spices & cocoa sourced directly from Kerala farmers. Reimagining global agricultural sourcing with pure trust and modern craftsmanship.
             </p>
+            <div class="mt-3 text-xs text-white/50 font-mono">
+              GST: 32AADCF1099C1Z2
+            </div>
           </div>
           
           <div class="mt-8 lg:mt-0 pt-4 text-xs text-white/40 tracking-wider">
@@ -50,15 +53,19 @@
             <ul class="text-sm space-y-4 text-white/80">
               <li class="flex items-center gap-3">
                 <span class="text-accent text-xs">✉</span>
-                <a href="mailto:info@farmaspice.com" class="hover:text-accent transition-colors font-medium">info@farmaspice.com</a>
+                <a href="mailto:customercare@valleyspice.com" class="hover:text-accent transition-colors font-medium">customercare@valleyspice.com</a>
               </li>
               <li class="flex items-center gap-3">
                 <span class="text-accent text-xs">☎</span>
-                <a href="tel:+911234567890" class="hover:text-accent transition-colors font-medium">+91 12345 67890</a>
+                <a href="tel:+918088315132" class="hover:text-accent transition-colors font-medium">+91 8088315132</a>
               </li>
               <li class="flex items-start gap-3">
-                <span class="text-accent text-xs mt-0.5">📍</span>
-                <span class="text-white/70">Kerala, India — Sourced directly from local farmer cooperatives.</span>
+                <span class="text-accent text-xs mt-1">📍</span>
+                <span class="text-white/70 leading-relaxed text-xs">
+                  Ground Floor, Pottamkulam Central Building,<br>
+                  Kalaketty, Kanjirapally,<br>
+                  Kerala - 686508, India
+                </span>
               </li>
             </ul>
           </div>
