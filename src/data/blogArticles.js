@@ -66,7 +66,7 @@ export const blogArticles = [
     author: 'Maria Santos',
     publishDate: '2024-01-20',
     readingTime: 10,
-    featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
+    featuredImage: 'https://images.unsplash.com/photo-1541781408260-3c61143b63d5?w=800&h=500&fit=crop',
     content: `
       <h2>The Art and Science of Cocoa Fermentation</h2>
       <p>Cocoa fermentation is one of the most critical steps in chocolate production. It's where raw, bitter cocoa beans transform into the aromatic, flavorful beans we use for premium chocolate and cocoa products.</p>
@@ -138,7 +138,7 @@ export const blogArticles = [
     author: 'James Wilson',
     publishDate: '2024-01-25',
     readingTime: 7,
-    featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
+    featuredImage: 'https://images.unsplash.com/photo-1506863530036-1efeddceb993?w=800&h=500&fit=crop',
     content: `
       <h2>The Golden Heart of Chocolate: Cocoa Butter</h2>
       <p>Cocoa butter is the natural fat from cocoa beans, extracted during processing. It's prized for its unique melting properties, distinctive aroma, and crucial role in chocolate making.</p>
@@ -281,7 +281,7 @@ export const blogArticles = [
     author: 'Sophie Laurent',
     publishDate: '2024-02-15',
     readingTime: 8,
-    featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
+    featuredImage: 'https://images.unsplash.com/photo-1628499636754-3162d34ca39c?w=800&h=500&fit=crop',
     content: `
       <h2>The Art of Selecting Premium Cocoa Powder</h2>
       <p>Not all cocoa powders are created equal. Understanding quality markers will help you select the best product for your needs.</p>
@@ -319,7 +319,7 @@ export const blogArticles = [
     author: 'Robert Chen',
     publishDate: '2024-02-22',
     readingTime: 7,
-    featuredImage: 'https://images.unsplash.com/photo-1576091160550-112173fba4ee?w=800&h=500&fit=crop',
+    featuredImage: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=800&h=500&fit=crop',
     content: `
       <h2>Create Your Brand: Private Label Manufacturing with FarmSpice</h2>
       <p>Building a brand around premium spices and cocoa products? We offer comprehensive private label manufacturing solutions.</p>
@@ -392,7 +392,7 @@ export const blogArticles = [
     author: 'Carlos Mendez',
     publishDate: '2024-03-08',
     readingTime: 13,
-    featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
+    featuredImage: 'https://images.unsplash.com/photo-1541781408260-3c61143b63d5?w=800&h=500&fit=crop',
     content: `
       <h2>The Complete Cocoa Processing Journey</h2>
       <p>From the cocoa pod on the tree to premium cocoa powder or chocolate, cocoa undergoes a complex transformation process.</p>
@@ -427,7 +427,7 @@ export const blogArticles = [
     author: 'Dr. Anjali Desai',
     publishDate: '2024-03-15',
     readingTime: 10,
-    featuredImage: 'https://images.unsplash.com/photo-1576091160550-112173fba4ee?w=800&h=500&fit=crop',
+    featuredImage: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=500&fit=crop',
     content: `
       <h2>Excellence in Every Batch: Our Quality Assurance Program</h2>
       <p>Quality is not just a promise—it's built into every stage of our process through rigorous testing and standards.</p>
@@ -501,7 +501,7 @@ export const blogArticles = [
     author: 'Meera Iyer',
     publishDate: '2024-04-01',
     readingTime: 9,
-    featuredImage: 'https://images.unsplash.com/photo-1596040708546-55aacc3baea4?w=800&h=500&fit=crop',
+    featuredImage: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=500&fit=crop',
     content: `
       <h2>The Green Gold: A Complete Guide to Kerala Cardamom</h2>
       <p>Cardamom, native to the Western Ghats of Kerala, is often called the "Queen of Spices" for its exquisite aroma and flavor.</p>
@@ -539,7 +539,7 @@ export const blogArticles = [
     author: 'Isabella Romano',
     publishDate: '2024-04-08',
     readingTime: 7,
-    featuredImage: 'https://images.unsplash.com/photo-1599599810694-aa151fd68991?w=800&h=500&fit=crop',
+    featuredImage: 'https://images.unsplash.com/photo-1506863530036-1efeddceb993?w=800&h=500&fit=crop',
     content: `
       <h2>Natural vs Dutch-Processed: Choosing Your Cocoa</h2>
       <p>The processing method significantly affects cocoa powder's color, flavor, and performance in recipes.</p>
@@ -576,7 +576,7 @@ export const blogArticles = [
     author: 'Michael Johnson',
     publishDate: '2024-04-15',
     readingTime: 9,
-    featuredImage: 'https://images.unsplash.com/photo-1596040708546-55aacc3baea4?w=800&h=500&fit=crop',
+    featuredImage: 'https://images.unsplash.com/photo-1600189083288-89e1c8b9b0cc?w=800&h=500&fit=crop',
     content: `
       <h2>Smart Buying: Bulk Spice Purchasing Strategy</h2>
       <p>Whether you're a food manufacturer, restaurant, or wholesaler, purchasing bulk spices requires careful planning and knowledge.</p>
@@ -611,7 +611,7 @@ export const blogArticles = [
     author: 'Dr. Ravi Prasad',
     publishDate: '2024-04-22',
     readingTime: 11,
-    featuredImage: 'https://images.unsplash.com/photo-1576091160550-112173fba4ee?w=800&h=500&fit=crop',
+    featuredImage: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=500&fit=crop',
     content: `
       <h2>Safeguarding Every Batch: Food Safety in Modern Spice Manufacturing</h2>
       <p>Food safety is non-negotiable in spice manufacturing. Our facility implements comprehensive protocols at every stage.</p>
