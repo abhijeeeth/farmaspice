@@ -20,9 +20,9 @@
     <!-- Products Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-12">
       <ProductCard :index="1" title="Premium Cocoa Beans" subtitle="Bulk Supply" :image="cocoaImage" link="https://www.cocoabean.in/premium-cocoa-beans-for-sale" />
-      <ProductCard :index="2" title="Cocoa Powder" subtitle="Food Grade" :image="cocoaImage" link="https://www.cocoabean.in/catalogsearch/result/?q=Cocoa+Powder" />
-      <ProductCard :index="3" title="Black Pepper" subtitle="Bulk" :image="heroImage" link="https://www.valleyspice.com/catalogsearch/result/?q=Black+Pepper" />
-      <ProductCard :index="4" title="Cardamom" subtitle="Aromatic" :image="heroImage" link="https://www.valleyspice.com/catalogsearch/result/?q=Cardamom" />
+      <ProductCard :index="2" title="Cocoa Powder" subtitle="Food Grade" :image="cocoaPowderImage" link="https://www.cocoabean.in/catalogsearch/result/?q=Cocoa+Powder" />
+      <ProductCard :index="3" title="Black Pepper" subtitle="Bulk" :image="blackPepperImage" link="https://www.valleyspice.com/catalogsearch/result/?q=Black+Pepper" />
+      <ProductCard :index="4" title="Cardamom" subtitle="Aromatic" :image="cardamomImage" link="https://www.valleyspice.com/catalogsearch/result/?q=Cardamom" />
     </div>
   </section>
 </template>
@@ -32,6 +32,9 @@ import ProductCard from '@/components/ProductCard.vue'
 import { useSEO } from '@/composables/useSEO'
 import cocoaImage from '@/assets/cocoa-beans.jpg'
 import heroImage from '@/assets/hero.jpg'
+import cardamomImage from '@/assets/cardamom.jpg'
+import cocoaPowderImage from '@/assets/cocoa-powder.jpg'
+import blackPepperImage from '@/assets/black-pepper.jpg'
 
 useSEO({ title: 'Products', description: 'FarmSpice product portfolio — cocoa and spices.' })
 </script>
