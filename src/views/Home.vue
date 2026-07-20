@@ -89,10 +89,10 @@
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          <ProductCard :index="1" title="Premium Cocoa Beans" subtitle="Bulk Supply" :image="cocoaImage" />
-          <ProductCard :index="2" title="Cocoa Powder" subtitle="Food Grade" :image="cocoaImage" />
-          <ProductCard :index="3" title="Black Pepper" subtitle="Grade A" :image="cocoaImage" />
-          <ProductCard :index="4" title="Cardamom" subtitle="Aroma Grade" :image="cocoaImage" />
+          <ProductCard :index="1" title="Premium Cocoa Beans" subtitle="Bulk Supply" :image="cocoaImage" link="https://www.cocoabean.in/premium-cocoa-beans-for-sale" />
+          <ProductCard :index="2" title="Cocoa Powder" subtitle="Food Grade" :image="cocoaImage" link="https://www.cocoabean.in/catalogsearch/result/?q=Cocoa+Powder" />
+          <ProductCard :index="3" title="Black Pepper" subtitle="Grade A" :image="heroImage" link="https://www.valleyspice.com/catalogsearch/result/?q=Black+Pepper" />
+          <ProductCard :index="4" title="Cardamom" subtitle="Aroma Grade" :image="heroImage" link="https://www.valleyspice.com/catalogsearch/result/?q=Cardamom" />
         </div>
       </div>
     </section>
